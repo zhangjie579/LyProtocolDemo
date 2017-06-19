@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F34B2151EF7A63200EC6479 /* LyMapEnum.h in Sources */ = {isa = PBXBuildFile; fileRef = 2F34B2141EF7A63200EC6479 /* LyMapEnum.h */; };
+		2F34B2181EF7A8C000EC6479 /* LyUserLocalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F34B2171EF7A8C000EC6479 /* LyUserLocalModel.m */; };
+		2F3B7B741EF7554100E567B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7B731EF7554100E567B1 /* main.m */; };
+		2F3B7B771EF7554100E567B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7B761EF7554100E567B1 /* AppDelegate.m */; };
+		2F3B7B7A1EF7554100E567B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7B791EF7554100E567B1 /* ViewController.m */; };
+		2F3B7B7D1EF7554100E567B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B7B7B1EF7554100E567B1 /* Main.storyboard */; };
+		2F3B7B7F1EF7554100E567B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B7B7E1EF7554100E567B1 /* Assets.xcassets */; };
+		2F3B7B821EF7554100E567B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B7B801EF7554100E567B1 /* LaunchScreen.storyboard */; };
+		2F3B7B8D1EF7554100E567B1 /* LyBaiduMapProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7B8C1EF7554100E567B1 /* LyBaiduMapProtocolTests.m */; };
+		2F3B7B981EF7554100E567B1 /* LyBaiduMapProtocolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7B971EF7554100E567B1 /* LyBaiduMapProtocolUITests.m */; };
+		2F3B7BB61EF7670300E567B1 /* LyMapEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7BB51EF7670300E567B1 /* LyMapEngine.m */; };
+		2F3B7BC01EF767DB00E567B1 /* LyConfiger.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B7BBF1EF767DB00E567B1 /* LyConfiger.plist */; };
+		2F3B7BC31EF768C500E567B1 /* LyMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7BC21EF768C500E567B1 /* LyMapModel.m */; };
+		2F3B7BC61EF768FA00E567B1 /* LyMapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7BC51EF768FA00E567B1 /* LyMapViewModel.m */; };
+		2F3B7BCB1EF775FA00E567B1 /* LyBaiduMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7BCA1EF775FA00E567B1 /* LyBaiduMapView.m */; };
+		2F3B7BD71EF77CD000E567B1 /* LyBaiduMapViewStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7BD61EF77CD000E567B1 /* LyBaiduMapViewStatus.m */; };
+		2F3B7BDA1EF77EE300E567B1 /* LyBaiduMapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7BD91EF77EE300E567B1 /* LyBaiduMapFactory.m */; };
+		2F3B7BDE1EF79B6000E567B1 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7BDD1EF79B6000E567B1 /* ZJViewController.m */; };
+		2F3B7BE61EF7A26C00E567B1 /* LyBaiduMapLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B7BE51EF7A26C00E567B1 /* LyBaiduMapLocal.m */; };
+		B2EF7642ED1DD4ED1989C97C /* libPods-LyBaiduMapProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 863B8404AB40A993F6FFD3AC /* libPods-LyBaiduMapProtocol.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F3B7B891EF7554100E567B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3B7B671EF7554100E567B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3B7B6E1EF7554100E567B1;
+			remoteInfo = LyBaiduMapProtocol;
+		};
+		2F3B7B941EF7554100E567B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3B7B671EF7554100E567B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3B7B6E1EF7554100E567B1;
+			remoteInfo = LyBaiduMapProtocol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F34B2131EF7A5B900EC6479 /* LyUserLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyUserLocal.h; sourceTree = "<group>"; };
+		2F34B2141EF7A63200EC6479 /* LyMapEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapEnum.h; sourceTree = "<group>"; };
+		2F34B2161EF7A8C000EC6479 /* LyUserLocalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyUserLocalModel.h; sourceTree = "<group>"; };
+		2F34B2171EF7A8C000EC6479 /* LyUserLocalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyUserLocalModel.m; sourceTree = "<group>"; };
+		2F34B2551EF7C32200EC6479 /* LyMapCodeSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapCodeSearch.h; sourceTree = "<group>"; };
+		2F34B2581EF7C36000EC6479 /* LyMapCodeSearchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapCodeSearchDelegate.h; sourceTree = "<group>"; };
+		2F34B2591EF7C4B700EC6479 /* LyCodeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyCodeResult.h; sourceTree = "<group>"; };
+		2F3B7B6F1EF7554100E567B1 /* LyBaiduMapProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyBaiduMapProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3B7B731EF7554100E567B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F3B7B751EF7554100E567B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F3B7B761EF7554100E567B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F3B7B781EF7554100E567B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F3B7B791EF7554100E567B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F3B7B7C1EF7554100E567B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F3B7B7E1EF7554100E567B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3B7B811EF7554100E567B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F3B7B831EF7554100E567B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3B7B881EF7554100E567B1 /* LyBaiduMapProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyBaiduMapProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3B7B8C1EF7554100E567B1 /* LyBaiduMapProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyBaiduMapProtocolTests.m; sourceTree = "<group>"; };
+		2F3B7B8E1EF7554100E567B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3B7B931EF7554100E567B1 /* LyBaiduMapProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyBaiduMapProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3B7B971EF7554100E567B1 /* LyBaiduMapProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyBaiduMapProtocolUITests.m; sourceTree = "<group>"; };
+		2F3B7B991EF7554100E567B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3B7BB41EF7670300E567B1 /* LyMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapEngine.h; sourceTree = "<group>"; };
+		2F3B7BB51EF7670300E567B1 /* LyMapEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyMapEngine.m; sourceTree = "<group>"; };
+		2F3B7BBF1EF767DB00E567B1 /* LyConfiger.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LyConfiger.plist; sourceTree = "<group>"; };
+		2F3B7BC11EF768C500E567B1 /* LyMapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapModel.h; sourceTree = "<group>"; };
+		2F3B7BC21EF768C500E567B1 /* LyMapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyMapModel.m; sourceTree = "<group>"; };
+		2F3B7BC41EF768FA00E567B1 /* LyMapViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapViewModel.h; sourceTree = "<group>"; };
+		2F3B7BC51EF768FA00E567B1 /* LyMapViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyMapViewModel.m; sourceTree = "<group>"; };
+		2F3B7BC71EF7729B00E567B1 /* LyMapViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapViewProtocol.h; sourceTree = "<group>"; };
+		2F3B7BC81EF7751700E567B1 /* LyMapViewProtocolDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapViewProtocolDelegate.h; sourceTree = "<group>"; };
+		2F3B7BC91EF775FA00E567B1 /* LyBaiduMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyBaiduMapView.h; sourceTree = "<group>"; };
+		2F3B7BCA1EF775FA00E567B1 /* LyBaiduMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyBaiduMapView.m; sourceTree = "<group>"; };
+		2F3B7BCF1EF77A2E00E567B1 /* LyMapViewMapStatusProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapViewMapStatusProtocol.h; sourceTree = "<group>"; };
+		2F3B7BD51EF77CD000E567B1 /* LyBaiduMapViewStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyBaiduMapViewStatus.h; sourceTree = "<group>"; };
+		2F3B7BD61EF77CD000E567B1 /* LyBaiduMapViewStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyBaiduMapViewStatus.m; sourceTree = "<group>"; };
+		2F3B7BD81EF77EE300E567B1 /* LyBaiduMapFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyBaiduMapFactory.h; sourceTree = "<group>"; };
+		2F3B7BD91EF77EE300E567B1 /* LyBaiduMapFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyBaiduMapFactory.m; sourceTree = "<group>"; };
+		2F3B7BDB1EF77EF600E567B1 /* LyMapFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMapFactory.h; sourceTree = "<group>"; };
+		2F3B7BDC1EF79B6000E567B1 /* ZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
+		2F3B7BDD1EF79B6000E567B1 /* ZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
+		2F3B7BDF1EF7A06D00E567B1 /* LyLocalProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyLocalProtocol.h; sourceTree = "<group>"; };
+		2F3B7BE41EF7A26C00E567B1 /* LyBaiduMapLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyBaiduMapLocal.h; sourceTree = "<group>"; };
+		2F3B7BE51EF7A26C00E567B1 /* LyBaiduMapLocal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyBaiduMapLocal.m; sourceTree = "<group>"; };
+		2F3B7BE71EF7A39800E567B1 /* LyLocalDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyLocalDelegate.h; sourceTree = "<group>"; };
+		863B8404AB40A993F6FFD3AC /* libPods-LyBaiduMapProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LyBaiduMapProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE910AAB33D966BA9BBCE3F /* Pods-LyBaiduMapProtocol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyBaiduMapProtocol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyBaiduMapProtocol/Pods-LyBaiduMapProtocol.debug.xcconfig"; sourceTree = "<group>"; };
+		E99DA705EA86DF9B5FEBE83D /* Pods-LyBaiduMapProtocol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyBaiduMapProtocol.release.xcconfig"; path = "Pods/Target Support Files/Pods-LyBaiduMapProtocol/Pods-LyBaiduMapProtocol.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3B7B6C1EF7554100E567B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EF7642ED1DD4ED1989C97C /* libPods-LyBaiduMapProtocol.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3B7B851EF7554100E567B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3B7B901EF7554100E567B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18405130B99E7A64E3A253CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BE910AAB33D966BA9BBCE3F /* Pods-LyBaiduMapProtocol.debug.xcconfig */,
+				E99DA705EA86DF9B5FEBE83D /* Pods-LyBaiduMapProtocol.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2466F679B1428481E91FF884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				863B8404AB40A993F6FFD3AC /* libPods-LyBaiduMapProtocol.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F34B2191EF7C1BB00EC6479 /* 地理编码反编码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "地理编码反编码";
+			path = "百度/地理编码反编码";
+			sourceTree = "<group>";
+		};
+		2F34B21A1EF7C1CE00EC6479 /* 地理编码反编码 */ = {
+			isa = PBXGroup;
+			children = (
+				2F34B2551EF7C32200EC6479 /* LyMapCodeSearch.h */,
+				2F34B2581EF7C36000EC6479 /* LyMapCodeSearchDelegate.h */,
+				2F34B2591EF7C4B700EC6479 /* LyCodeResult.h */,
+			);
+			path = "地理编码反编码";
+			sourceTree = "<group>";
+		};
+		2F3B7B661EF7554100E567B1 = {
+			isa = PBXGroup;
+			children = (
+				2F3B7B711EF7554100E567B1 /* LyBaiduMapProtocol */,
+				2F3B7B8B1EF7554100E567B1 /* LyBaiduMapProtocolTests */,
+				2F3B7B961EF7554100E567B1 /* LyBaiduMapProtocolUITests */,
+				2F3B7B701EF7554100E567B1 /* Products */,
+				18405130B99E7A64E3A253CD /* Pods */,
+				2466F679B1428481E91FF884 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3B7B701EF7554100E567B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7B6F1EF7554100E567B1 /* LyBaiduMapProtocol.app */,
+				2F3B7B881EF7554100E567B1 /* LyBaiduMapProtocolTests.xctest */,
+				2F3B7B931EF7554100E567B1 /* LyBaiduMapProtocolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3B7B711EF7554100E567B1 /* LyBaiduMapProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7BB31EF7670300E567B1 /* 配置 */,
+				2F3B7BA51EF75F0300E567B1 /* 地图实现 */,
+				2F3B7BA91EF75F0300E567B1 /* 地图协议(protocol) */,
+				2F3B7B751EF7554100E567B1 /* AppDelegate.h */,
+				2F3B7B761EF7554100E567B1 /* AppDelegate.m */,
+				2F3B7B781EF7554100E567B1 /* ViewController.h */,
+				2F3B7B791EF7554100E567B1 /* ViewController.m */,
+				2F3B7B7B1EF7554100E567B1 /* Main.storyboard */,
+				2F3B7B7E1EF7554100E567B1 /* Assets.xcassets */,
+				2F3B7B801EF7554100E567B1 /* LaunchScreen.storyboard */,
+				2F3B7B831EF7554100E567B1 /* Info.plist */,
+				2F3B7B721EF7554100E567B1 /* Supporting Files */,
+				2F3B7BDC1EF79B6000E567B1 /* ZJViewController.h */,
+				2F3B7BDD1EF79B6000E567B1 /* ZJViewController.m */,
+			);
+			path = LyBaiduMapProtocol;
+			sourceTree = "<group>";
+		};
+		2F3B7B721EF7554100E567B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7B731EF7554100E567B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F3B7B8B1EF7554100E567B1 /* LyBaiduMapProtocolTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7B8C1EF7554100E567B1 /* LyBaiduMapProtocolTests.m */,
+				2F3B7B8E1EF7554100E567B1 /* Info.plist */,
+			);
+			path = LyBaiduMapProtocolTests;
+			sourceTree = "<group>";
+		};
+		2F3B7B961EF7554100E567B1 /* LyBaiduMapProtocolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7B971EF7554100E567B1 /* LyBaiduMapProtocolUITests.m */,
+				2F3B7B991EF7554100E567B1 /* Info.plist */,
+			);
+			path = LyBaiduMapProtocolUITests;
+			sourceTree = "<group>";
+		};
+		2F3B7BA51EF75F0300E567B1 /* 地图实现 */ = {
+			isa = PBXGroup;
+			children = (
+				2F34B2191EF7C1BB00EC6479 /* 地理编码反编码 */,
+				2F3B7BA61EF75F0300E567B1 /* 百度 */,
+			);
+			path = "地图实现";
+			sourceTree = "<group>";
+		};
+		2F3B7BA61EF75F0300E567B1 /* 百度 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7BD81EF77EE300E567B1 /* LyBaiduMapFactory.h */,
+				2F3B7BD91EF77EE300E567B1 /* LyBaiduMapFactory.m */,
+				2F3B7BA71EF75F0300E567B1 /* 地图 */,
+				2F3B7BA81EF75F0300E567B1 /* 定位 */,
+			);
+			path = "百度";
+			sourceTree = "<group>";
+		};
+		2F3B7BA71EF75F0300E567B1 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7BC91EF775FA00E567B1 /* LyBaiduMapView.h */,
+				2F3B7BCA1EF775FA00E567B1 /* LyBaiduMapView.m */,
+				2F3B7BD51EF77CD000E567B1 /* LyBaiduMapViewStatus.h */,
+				2F3B7BD61EF77CD000E567B1 /* LyBaiduMapViewStatus.m */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		2F3B7BA81EF75F0300E567B1 /* 定位 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7BE41EF7A26C00E567B1 /* LyBaiduMapLocal.h */,
+				2F3B7BE51EF7A26C00E567B1 /* LyBaiduMapLocal.m */,
+				2F34B2161EF7A8C000EC6479 /* LyUserLocalModel.h */,
+				2F34B2171EF7A8C000EC6479 /* LyUserLocalModel.m */,
+			);
+			path = "定位";
+			sourceTree = "<group>";
+		};
+		2F3B7BA91EF75F0300E567B1 /* 地图协议(protocol) */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7BDB1EF77EF600E567B1 /* LyMapFactory.h */,
+				2F34B21A1EF7C1CE00EC6479 /* 地理编码反编码 */,
+				2F3B7BAA1EF75F0300E567B1 /* 地图 */,
+				2F3B7BAB1EF75F0300E567B1 /* 定位 */,
+			);
+			path = "地图协议(protocol)";
+			sourceTree = "<group>";
+		};
+		2F3B7BAA1EF75F0300E567B1 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7BC71EF7729B00E567B1 /* LyMapViewProtocol.h */,
+				2F3B7BC81EF7751700E567B1 /* LyMapViewProtocolDelegate.h */,
+				2F3B7BCF1EF77A2E00E567B1 /* LyMapViewMapStatusProtocol.h */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		2F3B7BAB1EF75F0300E567B1 /* 定位 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7BDF1EF7A06D00E567B1 /* LyLocalProtocol.h */,
+				2F3B7BE71EF7A39800E567B1 /* LyLocalDelegate.h */,
+				2F34B2131EF7A5B900EC6479 /* LyUserLocal.h */,
+			);
+			path = "定位";
+			sourceTree = "<group>";
+		};
+		2F3B7BB31EF7670300E567B1 /* 配置 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B7BB41EF7670300E567B1 /* LyMapEngine.h */,
+				2F3B7BB51EF7670300E567B1 /* LyMapEngine.m */,
+				2F3B7BBF1EF767DB00E567B1 /* LyConfiger.plist */,
+				2F3B7BC11EF768C500E567B1 /* LyMapModel.h */,
+				2F3B7BC21EF768C500E567B1 /* LyMapModel.m */,
+				2F3B7BC41EF768FA00E567B1 /* LyMapViewModel.h */,
+				2F3B7BC51EF768FA00E567B1 /* LyMapViewModel.m */,
+				2F34B2141EF7A63200EC6479 /* LyMapEnum.h */,
+			);
+			path = "配置";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3B7B6E1EF7554100E567B1 /* LyBaiduMapProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3B7B9C1EF7554100E567B1 /* Build configuration list for PBXNativeTarget "LyBaiduMapProtocol" */;
+			buildPhases = (
+				BD1408A0E90BB767758C60CE /* [CP] Check Pods Manifest.lock */,
+				2F3B7B6B1EF7554100E567B1 /* Sources */,
+				2F3B7B6C1EF7554100E567B1 /* Frameworks */,
+				2F3B7B6D1EF7554100E567B1 /* Resources */,
+				2FEDBE6FC541E4D238FFB1B3 /* [CP] Embed Pods Frameworks */,
+				8A61EBCFCAB312F095EB399D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyBaiduMapProtocol;
+			productName = LyBaiduMapProtocol;
+			productReference = 2F3B7B6F1EF7554100E567B1 /* LyBaiduMapProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F3B7B871EF7554100E567B1 /* LyBaiduMapProtocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3B7B9F1EF7554100E567B1 /* Build configuration list for PBXNativeTarget "LyBaiduMapProtocolTests" */;
+			buildPhases = (
+				2F3B7B841EF7554100E567B1 /* Sources */,
+				2F3B7B851EF7554100E567B1 /* Frameworks */,
+				2F3B7B861EF7554100E567B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3B7B8A1EF7554100E567B1 /* PBXTargetDependency */,
+			);
+			name = LyBaiduMapProtocolTests;
+			productName = LyBaiduMapProtocolTests;
+			productReference = 2F3B7B881EF7554100E567B1 /* LyBaiduMapProtocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F3B7B921EF7554100E567B1 /* LyBaiduMapProtocolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3B7BA21EF7554100E567B1 /* Build configuration list for PBXNativeTarget "LyBaiduMapProtocolUITests" */;
+			buildPhases = (
+				2F3B7B8F1EF7554100E567B1 /* Sources */,
+				2F3B7B901EF7554100E567B1 /* Frameworks */,
+				2F3B7B911EF7554100E567B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3B7B951EF7554100E567B1 /* PBXTargetDependency */,
+			);
+			name = LyBaiduMapProtocolUITests;
+			productName = LyBaiduMapProtocolUITests;
+			productReference = 2F3B7B931EF7554100E567B1 /* LyBaiduMapProtocolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3B7B671EF7554100E567B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张杰";
+				TargetAttributes = {
+					2F3B7B6E1EF7554100E567B1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4PSEL4BW5J;
+						ProvisioningStyle = Automatic;
+					};
+					2F3B7B871EF7554100E567B1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F3B7B6E1EF7554100E567B1;
+					};
+					2F3B7B921EF7554100E567B1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F3B7B6E1EF7554100E567B1;
+					};
+				};
+			};
+			buildConfigurationList = 2F3B7B6A1EF7554100E567B1 /* Build configuration list for PBXProject "LyBaiduMapProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3B7B661EF7554100E567B1;
+			productRefGroup = 2F3B7B701EF7554100E567B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3B7B6E1EF7554100E567B1 /* LyBaiduMapProtocol */,
+				2F3B7B871EF7554100E567B1 /* LyBaiduMapProtocolTests */,
+				2F3B7B921EF7554100E567B1 /* LyBaiduMapProtocolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F3B7B6D1EF7554100E567B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3B7BC01EF767DB00E567B1 /* LyConfiger.plist in Resources */,
+				2F3B7B821EF7554100E567B1 /* LaunchScreen.storyboard in Resources */,
+				2F3B7B7F1EF7554100E567B1 /* Assets.xcassets in Resources */,
+				2F3B7B7D1EF7554100E567B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3B7B861EF7554100E567B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3B7B911EF7554100E567B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FEDBE6FC541E4D238FFB1B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyBaiduMapProtocol/Pods-LyBaiduMapProtocol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A61EBCFCAB312F095EB399D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyBaiduMapProtocol/Pods-LyBaiduMapProtocol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1408A0E90BB767758C60CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F3B7B6B1EF7554100E567B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3B7B7A1EF7554100E567B1 /* ViewController.m in Sources */,
+				2F34B2181EF7A8C000EC6479 /* LyUserLocalModel.m in Sources */,
+				2F3B7B771EF7554100E567B1 /* AppDelegate.m in Sources */,
+				2F3B7BC61EF768FA00E567B1 /* LyMapViewModel.m in Sources */,
+				2F3B7BC31EF768C500E567B1 /* LyMapModel.m in Sources */,
+				2F3B7BE61EF7A26C00E567B1 /* LyBaiduMapLocal.m in Sources */,
+				2F3B7BDE1EF79B6000E567B1 /* ZJViewController.m in Sources */,
+				2F3B7BB61EF7670300E567B1 /* LyMapEngine.m in Sources */,
+				2F3B7BCB1EF775FA00E567B1 /* LyBaiduMapView.m in Sources */,
+				2F3B7B741EF7554100E567B1 /* main.m in Sources */,
+				2F3B7BDA1EF77EE300E567B1 /* LyBaiduMapFactory.m in Sources */,
+				2F34B2151EF7A63200EC6479 /* LyMapEnum.h in Sources */,
+				2F3B7BD71EF77CD000E567B1 /* LyBaiduMapViewStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3B7B841EF7554100E567B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3B7B8D1EF7554100E567B1 /* LyBaiduMapProtocolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3B7B8F1EF7554100E567B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3B7B981EF7554100E567B1 /* LyBaiduMapProtocolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F3B7B8A1EF7554100E567B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3B7B6E1EF7554100E567B1 /* LyBaiduMapProtocol */;
+			targetProxy = 2F3B7B891EF7554100E567B1 /* PBXContainerItemProxy */;
+		};
+		2F3B7B951EF7554100E567B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3B7B6E1EF7554100E567B1 /* LyBaiduMapProtocol */;
+			targetProxy = 2F3B7B941EF7554100E567B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F3B7B7B1EF7554100E567B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3B7B7C1EF7554100E567B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F3B7B801EF7554100E567B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3B7B811EF7554100E567B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F3B7B9A1EF7554100E567B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F3B7B9B1EF7554100E567B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3B7B9D1EF7554100E567B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE910AAB33D966BA9BBCE3F /* Pods-LyBaiduMapProtocol.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PSEL4BW5J;
+				INFOPLIST_FILE = LyBaiduMapProtocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangjie.LyBaiduMapProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F3B7B9E1EF7554100E567B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99DA705EA86DF9B5FEBE83D /* Pods-LyBaiduMapProtocol.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PSEL4BW5J;
+				INFOPLIST_FILE = LyBaiduMapProtocol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangjie.LyBaiduMapProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F3B7BA01EF7554100E567B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LyBaiduMapProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangjie.LyBaiduMapProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyBaiduMapProtocol.app/LyBaiduMapProtocol";
+			};
+			name = Debug;
+		};
+		2F3B7BA11EF7554100E567B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LyBaiduMapProtocolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangjie.LyBaiduMapProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyBaiduMapProtocol.app/LyBaiduMapProtocol";
+			};
+			name = Release;
+		};
+		2F3B7BA31EF7554100E567B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LyBaiduMapProtocolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangjie.LyBaiduMapProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LyBaiduMapProtocol;
+			};
+			name = Debug;
+		};
+		2F3B7BA41EF7554100E567B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LyBaiduMapProtocolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangjie.LyBaiduMapProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LyBaiduMapProtocol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3B7B6A1EF7554100E567B1 /* Build configuration list for PBXProject "LyBaiduMapProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3B7B9A1EF7554100E567B1 /* Debug */,
+				2F3B7B9B1EF7554100E567B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3B7B9C1EF7554100E567B1 /* Build configuration list for PBXNativeTarget "LyBaiduMapProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3B7B9D1EF7554100E567B1 /* Debug */,
+				2F3B7B9E1EF7554100E567B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3B7B9F1EF7554100E567B1 /* Build configuration list for PBXNativeTarget "LyBaiduMapProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3B7BA01EF7554100E567B1 /* Debug */,
+				2F3B7BA11EF7554100E567B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3B7BA21EF7554100E567B1 /* Build configuration list for PBXNativeTarget "LyBaiduMapProtocolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3B7BA31EF7554100E567B1 /* Debug */,
+				2F3B7BA41EF7554100E567B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F3B7B671EF7554100E567B1 /* Project object */;
+}
